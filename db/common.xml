@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="TraspasoCartera" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+  <resultMaps>
+    <resultMap id="genericComboboxResultMap" class="HashTable">
+      <result property="id" column="ID" />
+      <result property="desc" column="DESCRIPCION" />
+    </resultMap>
+
+    <resultMap id="genericComboboxResult" class="c_labs.common.ValueObject">
+      <result property="id" column="ID" />
+      <result property="desc" column="DESC" />
+    </resultMap>
+  </resultMaps>
+  
+</sqlMap>

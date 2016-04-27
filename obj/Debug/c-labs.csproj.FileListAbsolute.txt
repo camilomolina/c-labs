@@ -1,0 +1,14 @@
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\c-labs.exe.config
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\c-labs.exe
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\c-labs.pdb
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c-labs.csprojResolveAssemblyReference.cache
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c_labs.Form1.resources
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c_labs.Properties.Resources.resources
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c-labs.csproj.GenerateResource.Cache
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c-labs.exe
+C:\Proyectos\bennu\c#-labs\c-labs\obj\Debug\c-labs.pdb
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\Castle.DynamicProxy.dll
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\IBatisNet.Common.dll
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\IBatisNet.DataMapper.dll
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\IBatisNet.Common.xml
+C:\Proyectos\bennu\c#-labs\c-labs\bin\Debug\IBatisNet.DataMapper.xml

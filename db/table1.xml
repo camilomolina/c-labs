@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="TraspasoCartera" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+  <resultMaps>
+    <resultMap id="table1Result" class="c_labs.common.Table1">
+      <result property="id" column="ID" />
+      <result property="description" column="DESC" />
+      <result property="startDate" column="FECHA_1" />
+      <result property="endDate" column="FECHA_2" />
+      <result property="amount" column="MONTO"  />
+    </resultMap>
+  </resultMaps>
+
+  <statements>
+    <statement id="sqlTest" resultClass="System.String" >
+      SELECT ¨* FROM table1
+    </statement>
+
+    <statement id="sqlTest2" resultClass="System.String" parameterClass="System.Int32">
+      SELECT ¨* FROM table1 where id > #value#
+    </statement>
+
+    <delete id="deleteProcess" parameterClass="System.Int64">
+      DECLARE @CTZN_SEQ_CDG AS INT = #value#
+    </delete>
+
+    <insert id="insertTable1" parameterClass="c_labs.common.Table1">
+      INSERT INTO TABLE1 (DESC, FECHA_1, FECHA_2, MONTO)
+      VALUES (#description#, #startDate#, #endDate#, #amount#);
+      <selectKey type="post" resultClass="System.Int64" property="id" >
+        select @@IDENTITY as id
+      </selectKey>
+    </insert>
+  </statements>
+
+</sqlMap>
